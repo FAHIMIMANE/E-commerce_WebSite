@@ -1,0 +1,48 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- main
+
+pool:
+  name: 'Continus Integration Continuous Delivery Agent' 
+  demands:
+  - agent.name -equals KHALIL_AGENT
+
+variables:
+  buildDirectory: 'android\app\build\outputs\apk\release'
+  productionDirectory: 'C:\Users\khali\OneDrive\Bureau\front_mobile'
+  
+steps:
+- checkout: self
+- task: NodeTool@0
+  inputs:
+    versionSpec: '18.20.2'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install
+  displayName: 'Installer les dépendances'
+  workingDirectory: '$(Build.SourcesDirectory)\\Front-end\\Mobile'
+
+- script: |
+    echo "Démarrage du prebuild..."
+    npx expo prebuild
+    echo "prebuild terminé"
+  displayName: 'PreBuild de l application React Native'
+  workingDirectory: '$(Build.SourcesDirectory)\\Front-end\\Mobile'
+
+- script: |
+    echo "cleaning and building"
+    cd android && gradlew clean && gradlew assembleRelease
+    echo "cleaning et building terminé"
+  displayName: 'cleaning and building de l application React Native'
+  workingDirectory: '$(Build.SourcesDirectory)\\Front-end\\Mobile'  
+
+- script: |
+   robocopy "$(Build.SourcesDirectory)\\Front-end\\Mobile\\$(buildDirectory)" "$(productionDirectory)" /MIR
+   if %ERRORLEVEL% LEQ 1 (exit 0) else (exit %ERRORLEVEL%)
+  displayName: 'Déployer l application React Native dans le répertoire de production'
+  

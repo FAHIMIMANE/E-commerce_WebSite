@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Back-end/account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/api-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/billing-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/catalog-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/eureka-discovery-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Back-end/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

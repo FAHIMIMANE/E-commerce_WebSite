@@ -1,0 +1,263 @@
+version: "3.4"
+
+services:
+
+  # Database
+  mysql-db:
+    image: mysql:5.7
+    container_name: mysql-db
+    hostname: mysql-db
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'fivebeans_db'
+      MYSQL_USER: 'fivebeansDBA'
+      MYSQL_PASSWORD: 'PaSSworD'
+      MYSQL_ROOT_PASSWORD: 'r00tPaSSworD'
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    volumes:
+      - fivebeans-db-volume:/var/lib/mysql
+    networks:
+      - fivebeans-app-network
+
+  # Core services
+  consul-discovery:
+    hostname: consul-discovery
+    image: consul:1.15.4
+    container_name: consul-discovery
+    restart: always
+    ports:
+      - "8500:8500"
+    networks:
+      - fivebeans-app-network
+
+  api-gateway-server:
+    build:
+      context: ./api-gateway-service
+      args:
+        JAR_FILE: api-gateway-service-0.0.1-SNAPSHOT.jar
+      dockerfile: Dockerfile
+    image: api-gateway-server
+    container_name: api-gateway-server
+    hostname: api-gateway-server
+    ports:
+      - "8765:8765"
+    networks:
+      - fivebeans-app-network
+    environment:
+      - SERVER_PORT=8765
+      - ZIPKIN_HOST=zipkin:9411
+      - SPRING_PROFILES_ACTIVE=docker
+
+#  eureka-discovery-service:
+#    build:
+#      context: ./eureka-discovery-service
+#      args:
+#        JAR_FILE: eureka-discovery-service-0.0.1-SNAPSHOT.jar
+#      dockerfile: Dockerfile
+#    image: eureka-discovery-service
+#    container_name: eureka-discovery-service
+#    hostname: eureka-discovery-service
+#    ports:
+#      - "8761:8761"
+#    networks:
+#      - fivebeans-app-network
+#    environment:
+#      - SERVER_PORT=8761
+#      - ZIPKIN_HOST=zipkin:9411
+#      - SPRING_PROFILES_ACTIVE=docker
+
+  account-service:
+    build:
+      context: ./account-service
+      args:
+        JAR_FILE: account-service-0.0.1-SNAPSHOT.jar
+      dockerfile: Dockerfile
+    image: account-service
+    container_name: account-service
+    hostname: account-service
+    ports:
+      - "4001:4001"
+    networks:
+      - fivebeans-app-network
+    environment:
+      - SERVER_PORT=4001
+      - ZIPKIN_HOST=zipkin:9411
+      - SPRING_PROFILES_ACTIVE=docker
+
+  billing-service:
+    build:
+      context: ./billing-service
+      args:
+        JAR_FILE: billing-service-0.0.1-SNAPSHOT.jar
+      dockerfile: Dockerfile
+    image: billing-service
+    container_name: billing-service
+    hostname: billing-service
+    ports:
+      - "5001:5001"
+    networks:
+      - fivebeans-app-network
+    environment:
+      - SERVER_PORT=5001
+      - ZIPKIN_HOST=zipkin:9411
+      - SPRING_PROFILES_ACTIVE=docker
+
+  catalog-service:
+    build:
+      context: ./catalog-service
+      args:
+        JAR_FILE: catalog-service-0.0.1-SNAPSHOT.jar
+      dockerfile: Dockerfile
+    image: catalog-service
+    container_name: catalog-service
+    hostname: catalog-service
+    ports:
+      - "6001:6001"
+    networks:
+      - fivebeans-app-network
+    environment:
+      - SERVER_PORT=6001
+      - ZIPKIN_HOST=zipkin:9411
+      - SPRING_PROFILES_ACTIVE=docker
+
+  order-service:
+    build:
+      context: ./order-service
+      args:
+        JAR_FILE: order-service-0.0.1-SNAPSHOT.jar
+      dockerfile: Dockerfile
+    image: order-service
+    container_name: order-service
+    hostname: order-service
+    ports:
+      - "7001:7001"
+    networks:
+      - fivebeans-app-network
+    environment:
+      - SERVER_PORT=7001
+      - ZIPKIN_HOST=zipkin:9411
+      - SPRING_PROFILES_ACTIVE=docker
+
+  payment-service:
+    build:
+      context: ./payment-service
+      args:
+        JAR_FILE: payment-service-0.0.1-SNAPSHOT.jar
+      dockerfile: Dockerfile
+    image: payment-service
+    container_name: payment-service
+    hostname: payment-service
+    ports:
+      - "8001:8001"
+    networks:
+      - fivebeans-app-network
+    environment:
+      - SERVER_PORT=8001
+      - ZIPKIN_HOST=zipkin:9411
+      - SPRING_PROFILES_ACTIVE=docker
+
+  # Tracing service
+#  zipkin:
+#    image: openzipkin/zipkin
+#    container_name: zipkin
+#    hostname: zipkin
+#    ports:
+#      - "9411:9411"
+#    networks:
+#      - fivebeans-app-network
+
+  # Monitoring Services
+#  prometheus:
+#    build:
+#      context: prometheus
+#      dockerfile: Dockerfile
+#    image: prometheus
+#    container_name: prometheus
+#    hostname: prometheus
+#    ports:
+#      - "9090:9090"
+#    networks:
+#      - fivebeans-app-network
+#
+#  grafana:
+#    build:
+#      context: ./graphana
+#      dockerfile: Dockerfile
+#    image: graphana
+#    container_name: graphana
+#    hostname: graphana
+#    ports:
+#      - "3030:3000"
+#    volumes:
+#      - fivebeans-graphana-volume:/var/lib/grafana
+#    networks:
+#      - fivebeans-app-network
+
+  # Monitoring using TICK stack.
+#  telegraf:
+#    build:
+#      context: ./telegraph
+#      dockerfile: Dockerfile
+#    image: telegraf
+#    container_name: telegraf
+#    hostname: telegraf
+#    environment:
+#      HOSTNAME: "telegraf"
+#    ports:
+#      - "8125:8125/udp"
+#    volumes:
+#      - /var/run/docker.sock:/var/run/docker.sock
+#    networks:
+#      - fivebeans-app-network
+#
+#  influxdb:
+#    image: influxdb
+#    container_name: influxdb
+#    hostname: influxdb
+#    volumes:
+#      - fivebeans-influxdb-volume:/var/lib/influxdb
+#    ports:
+#      - "8086:8086"
+#    networks:
+#      - fivebeans-app-network
+#
+#  chronograf:
+#    image: chronograf:1.7.3
+#    container_name: chronograf
+#    hostname: chronograf
+#    environment:
+#      INFLUXDB_URL: http://influxdb:8086
+#      KAPACITOR_URL: http://kapacitor:9092
+#    volumes:
+#      - fivebeans-chronograf-volume:/var/lib/chronograf
+#    ports:
+#      - "8888:8888"
+#    restart: always
+#    networks:
+#      - fivebeans-app-network
+#
+#  kapacitor:
+#    image: kapacitor
+#    container_name: kapacitor
+#    hostname: kapacitor
+#    environment:
+#      KAPACITOR_HOSTNAME: kapacitor
+#      KAPACITOR_INFLUXDB_0_URLS_0: http://influxdb:8086
+#    ports:
+#      - "9092:9092"
+#    networks:
+#      - fivebeans-app-network
+
+volumes:
+  fivebeans-db-volume:
+  fivebeans-graphana-volume:
+  fivebeans-telegraph-volume:
+  fivebeans-influxdb-volume:
+  fivebeans-chronograf-volume:
+
+networks:
+  fivebeans-app-network:
+    driver: bridge

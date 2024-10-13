@@ -1,0 +1,1365 @@
+[2024-05-12 14:15:37 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 14:15:38 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.eurekadiscoveryservice.EurekaDiscoveryServiceApplication : No active profile set, falling back to default profiles: default
+[2024-05-12 14:15:40 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.context.scope.GenericScope : BeanFactory id=e2ae9448-28ff-310d-bb93-af8a568e83ad
+[2024-05-12 14:15:40 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 14:15:40 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8761 (http)
+[2024-05-12 14:15:40 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8761"]
+[2024-05-12 14:15:40 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[2024-05-12 14:15:40 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2024-05-12 14:15:41 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2024-05-12 14:15:41 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2488 ms
+[2024-05-12 14:15:41 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 14:15:41 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 14:15:41 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@662e682a
+[2024-05-12 14:15:41 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[2024-05-12 14:15:42 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration : Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6314df3c}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+[2024-05-12 14:15:43 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.sun.jersey.server.impl.application.WebApplicationImpl : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+[2024-05-12 14:15:43 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2024-05-12 14:15:43 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2024-05-12 14:15:43 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2024-05-12 14:15:43 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2024-05-12 14:15:44 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 14:15:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 14:15:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2024-05-12 14:15:45 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+[2024-05-12 14:15:45 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+[2024-05-12 14:15:45 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Client configured to neither register nor query for data.
+[2024-05-12 14:15:45 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1715519745121 with initial instances count: 0
+[2024-05-12 14:15:47 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+[2024-05-12 14:15:48 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[2024-05-12 14:15:48 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.DefaultEurekaServerContext : Initializing ...
+[2024-05-12 14:15:48 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.cluster.PeerEurekaNodes : Adding new peer nodes [http://localhost:8761/eureka/]
+[2024-05-12 14:15:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2024-05-12 14:15:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2024-05-12 14:15:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2024-05-12 14:15:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2024-05-12 14:15:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.cluster.PeerEurekaNodes : Replica node URL:  http://localhost:8761/eureka/
+[2024-05-12 14:15:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.registry.AbstractInstanceRegistry : Finished initializing remote region registries. All known remote regions: []
+[2024-05-12 14:15:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.DefaultEurekaServerContext : Initialized
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application EUREKA-DISCOVERY-SERVICE with eureka with status UP
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8761"]
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-43> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Setting the eureka configuration..
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-43> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Eureka data center value eureka.datacenter is not set, defaulting to default
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-43> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Eureka environment value eureka.environment is not set, defaulting to test
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-43> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : isAws returned false
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-43> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Initialized server context
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-43> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Got 1 instances from neighboring DS node
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-43> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Renew threshold is: 1
+[2024-05-12 14:15:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-43> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Changing status to UP
+[2024-05-12 14:15:51 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-43> org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration : Started Eureka Server
+[2024-05-12 14:15:51 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8761 (http) with context path ''
+[2024-05-12 14:15:51 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8761
+[2024-05-12 14:15:53 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.eurekadiscoveryservice.EurekaDiscoveryServiceApplication : Started EurekaDiscoveryServiceApplication in 17.779 seconds (JVM running for 22.008)
+[2024-05-12 14:15:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(8)-26.111.141.48> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-12 14:15:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(8)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+[2024-05-12 14:15:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(8)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Completed initialization in 20 ms
+[2024-05-12 14:15:57 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application EUREKA-DISCOVERY-SERVICE with eureka with status DOWN
+[2024-05-12 14:15:57 WEST] ERROR [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Cannot shutdown ReplicaAwareInstanceRegistry
+java.lang.NullPointerException: null
+	at com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl.shutdown(PeerAwareInstanceRegistryImpl.java:174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+[2024-05-12 14:15:57 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> com.netflix.eureka.DefaultEurekaServerContext : Shutting down ...
+[2024-05-12 14:15:57 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> com.netflix.eureka.DefaultEurekaServerContext : Shut down
+[2024-05-12 14:15:57 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-05-12 14:15:58 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> com.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+[2024-05-12 14:15:58 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> com.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient
+[2024-05-12 14:16:09 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 14:16:09 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.eurekadiscoveryservice.EurekaDiscoveryServiceApplication : No active profile set, falling back to default profiles: default
+[2024-05-12 14:16:10 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.context.scope.GenericScope : BeanFactory id=e2ae9448-28ff-310d-bb93-af8a568e83ad
+[2024-05-12 14:16:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 14:16:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8761 (http)
+[2024-05-12 14:16:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8761"]
+[2024-05-12 14:16:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[2024-05-12 14:16:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2024-05-12 14:16:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2024-05-12 14:16:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1880 ms
+[2024-05-12 14:16:11 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 14:16:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 14:16:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@662e682a
+[2024-05-12 14:16:12 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[2024-05-12 14:16:12 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration : Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6314df3c}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+[2024-05-12 14:16:13 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.sun.jersey.server.impl.application.WebApplicationImpl : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+[2024-05-12 14:16:13 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2024-05-12 14:16:13 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2024-05-12 14:16:13 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2024-05-12 14:16:13 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2024-05-12 14:16:13 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 14:16:13 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 14:16:14 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2024-05-12 14:16:14 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+[2024-05-12 14:16:14 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+[2024-05-12 14:16:14 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Client configured to neither register nor query for data.
+[2024-05-12 14:16:14 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1715519774845 with initial instances count: 0
+[2024-05-12 14:16:16 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+[2024-05-12 14:16:16 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[2024-05-12 14:16:16 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.DefaultEurekaServerContext : Initializing ...
+[2024-05-12 14:16:16 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.cluster.PeerEurekaNodes : Adding new peer nodes [http://localhost:8761/eureka/]
+[2024-05-12 14:16:16 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2024-05-12 14:16:16 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2024-05-12 14:16:16 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2024-05-12 14:16:16 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.cluster.PeerEurekaNodes : Replica node URL:  http://localhost:8761/eureka/
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.registry.AbstractInstanceRegistry : Finished initializing remote region registries. All known remote regions: []
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.DefaultEurekaServerContext : Initialized
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application EUREKA-DISCOVERY-SERVICE with eureka with status UP
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8761"]
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-34> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Setting the eureka configuration..
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-34> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Eureka data center value eureka.datacenter is not set, defaulting to default
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-34> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Eureka environment value eureka.environment is not set, defaulting to test
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-34> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : isAws returned false
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-34> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Initialized server context
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-34> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Got 1 instances from neighboring DS node
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-34> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Renew threshold is: 1
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-34> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Changing status to UP
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-34> org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration : Started Eureka Server
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8761 (http) with context path ''
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8761
+[2024-05-12 14:16:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.eurekadiscoveryservice.EurekaDiscoveryServiceApplication : Started EurekaDiscoveryServiceApplication in 10.555 seconds (JVM running for 11.834)
+[2024-05-12 14:16:18 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(4)-26.111.141.48> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-12 14:16:18 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(4)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+[2024-05-12 14:16:18 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(4)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Completed initialization in 15 ms
+[2024-05-12 14:16:59 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 57b4ac09ebbf9984], [SpanId -> 57b4ac09ebbf9984] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance API-GATEWAY-SERVICE/172.16.226.142:api-gateway-service:8765 with status UP (replication=false)
+[2024-05-12 14:17:00 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6314df3c}> zipkin2.reporter.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+[2024-05-12 14:17:00 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6314df3c}> zipkin2.reporter.AsyncReporter$BoundedAsyncReporter : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:285)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:354)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+[2024-05-12 14:17:00 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> bad4df98cb3988c1], [SpanId -> bad4df98cb3988c1] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance API-GATEWAY-SERVICE/172.16.226.142:api-gateway-service:8765 with status UP (replication=true)
+[2024-05-12 14:17:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 14:17:53 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c69882d45fb1dd99], [SpanId -> c69882d45fb1dd99] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 14:17:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 3ccded5e402e5a54], [SpanId -> 3ccded5e402e5a54] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 14:18:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 14:19:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 12ms
+[2024-05-12 14:20:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 11ms
+[2024-05-12 14:21:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 14:22:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 14:23:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 14ms
+[2024-05-12 14:24:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 12ms
+[2024-05-12 14:25:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 14:26:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 14:27:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 14ms
+[2024-05-12 14:28:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 6ms
+[2024-05-12 14:29:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 14ms
+[2024-05-12 14:30:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 14:31:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <ReplicaAwareInstanceRegistry - RenewalThresholdUpdater> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Current renewal threshold is : 5
+[2024-05-12 14:31:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 14:32:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 14:33:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 14:34:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 5ms
+[2024-05-12 14:35:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 5ms
+[2024-05-12 14:36:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 11ms
+[2024-05-12 14:37:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 14:38:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 6ms
+[2024-05-12 14:39:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 11ms
+[2024-05-12 14:40:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 14:41:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 14:42:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 14:43:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 11ms
+[2024-05-12 14:44:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 14:45:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 12ms
+[2024-05-12 14:46:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <ReplicaAwareInstanceRegistry - RenewalThresholdUpdater> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Current renewal threshold is : 5
+[2024-05-12 14:46:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 9745f5ec90b9dec1], [SpanId -> 9745f5ec90b9dec1] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 14:47:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 1a9d518719ed8fd8], [SpanId -> 1a9d518719ed8fd8] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 14:47:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 14:48:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 14:49:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 2ms
+[2024-05-12 14:50:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 14:50:29 WEST] ERROR [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-5> com.netflix.eureka.cluster.ReplicationTaskProcessor : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:117)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:193)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+[2024-05-12 14:51:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 14ms
+[2024-05-12 14:52:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 14:53:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 14:54:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 15ms
+[2024-05-12 14:55:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 14:56:02 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> db62b19c0cb66972], [SpanId -> db62b19c0cb66972] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=false)
+[2024-05-12 14:56:02 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application EUREKA-DISCOVERY-SERVICE with eureka with status DOWN
+[2024-05-12 14:56:02 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 5bb8c779e294318d], [SpanId -> 5bb8c779e294318d] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance API-GATEWAY-SERVICE/172.16.226.142:api-gateway-service:8765 with status DOWN (replication=false)
+[2024-05-12 14:56:02 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ace6d616bd6e9023], [SpanId -> ace6d616bd6e9023] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=false)
+[2024-05-12 15:02:40 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:02:41 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.eurekadiscoveryservice.EurekaDiscoveryServiceApplication : No active profile set, falling back to default profiles: default
+[2024-05-12 15:02:43 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.context.scope.GenericScope : BeanFactory id=e2ae9448-28ff-310d-bb93-af8a568e83ad
+[2024-05-12 15:02:43 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:02:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8761 (http)
+[2024-05-12 15:02:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8761"]
+[2024-05-12 15:02:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[2024-05-12 15:02:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2024-05-12 15:02:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2024-05-12 15:02:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2549 ms
+[2024-05-12 15:02:44 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 15:02:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 15:02:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@662e682a
+[2024-05-12 15:02:45 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[2024-05-12 15:02:46 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration : Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6314df3c}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+[2024-05-12 15:02:47 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.sun.jersey.server.impl.application.WebApplicationImpl : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+[2024-05-12 15:02:47 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2024-05-12 15:02:47 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2024-05-12 15:02:47 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2024-05-12 15:02:47 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2024-05-12 15:02:47 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 15:02:47 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 15:02:48 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2024-05-12 15:02:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+[2024-05-12 15:02:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+[2024-05-12 15:02:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Client configured to neither register nor query for data.
+[2024-05-12 15:02:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1715522569614 with initial instances count: 0
+[2024-05-12 15:02:53 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+[2024-05-12 15:02:54 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[2024-05-12 15:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.DefaultEurekaServerContext : Initializing ...
+[2024-05-12 15:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.cluster.PeerEurekaNodes : Adding new peer nodes [http://localhost:8761/eureka/]
+[2024-05-12 15:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2024-05-12 15:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2024-05-12 15:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2024-05-12 15:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2024-05-12 15:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.cluster.PeerEurekaNodes : Replica node URL:  http://localhost:8761/eureka/
+[2024-05-12 15:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.registry.AbstractInstanceRegistry : Finished initializing remote region registries. All known remote regions: []
+[2024-05-12 15:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.eureka.DefaultEurekaServerContext : Initialized
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application EUREKA-DISCOVERY-SERVICE with eureka with status UP
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8761"]
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-50> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Setting the eureka configuration..
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-50> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Eureka data center value eureka.datacenter is not set, defaulting to default
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-50> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Eureka environment value eureka.environment is not set, defaulting to test
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-50> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : isAws returned false
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-50> org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap : Initialized server context
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-50> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Got 1 instances from neighboring DS node
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-50> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Renew threshold is: 1
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-50> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Changing status to UP
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Thread-50> org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration : Started Eureka Server
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8761 (http) with context path ''
+[2024-05-12 15:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8761
+[2024-05-12 15:02:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.eurekadiscoveryservice.EurekaDiscoveryServiceApplication : Started EurekaDiscoveryServiceApplication in 18.341 seconds (JVM running for 20.091)
+[2024-05-12 15:02:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(2)-26.111.141.48> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-12 15:02:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(2)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+[2024-05-12 15:02:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(2)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Completed initialization in 33 ms
+[2024-05-12 15:03:02 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> a2b8a81a85dcfaee], [SpanId -> a2b8a81a85dcfaee] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: BILLING-SERVICE - 172.16.226.142:billing-service:5001
+[2024-05-12 15:03:02 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> a2b8a81a85dcfaee], [SpanId -> a2b8a81a85dcfaee] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): BILLING-SERVICE - 172.16.226.142:billing-service:5001
+[2024-05-12 15:03:03 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ff6a1a7ceca80adb], [SpanId -> ff6a1a7ceca80adb] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance BILLING-SERVICE/172.16.226.142:billing-service:5001 with status UP (replication=false)
+[2024-05-12 15:03:03 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6314df3c}> zipkin2.reporter.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+[2024-05-12 15:03:03 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6314df3c}> zipkin2.reporter.AsyncReporter$BoundedAsyncReporter : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:285)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:354)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1228)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+[2024-05-12 15:03:03 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 860b773525bf9a5b], [SpanId -> 860b773525bf9a5b] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance BILLING-SERVICE/172.16.226.142:billing-service:5001 with status UP (replication=true)
+[2024-05-12 15:03:04 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 6bbf139d6e519eae], [SpanId -> 6bbf139d6e519eae] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 15:03:05 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> efa93a7cbd97196b], [SpanId -> efa93a7cbd97196b] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 15:03:09 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ed9664fdefb6c028], [SpanId -> ed9664fdefb6c028] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: API-GATEWAY-SERVICE - 172.16.226.142:api-gateway-service:8765
+[2024-05-12 15:03:09 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ed9664fdefb6c028], [SpanId -> ed9664fdefb6c028] 
+      <http-nio-8761-exec-7> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): API-GATEWAY-SERVICE - 172.16.226.142:api-gateway-service:8765
+[2024-05-12 15:03:09 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 43934a56dfcfe2eb], [SpanId -> 43934a56dfcfe2eb] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance API-GATEWAY-SERVICE/172.16.226.142:api-gateway-service:8765 with status UP (replication=false)
+[2024-05-12 15:03:10 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b3628151834b5b8c], [SpanId -> b3628151834b5b8c] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance API-GATEWAY-SERVICE/172.16.226.142:api-gateway-service:8765 with status UP (replication=true)
+[2024-05-12 15:03:16 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 926e9d1c96af5523], [SpanId -> 926e9d1c96af5523] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 15:03:16 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 926e9d1c96af5523], [SpanId -> 926e9d1c96af5523] 
+      <http-nio-8761-exec-5> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 15:03:16 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b0689cf42cbcb76e], [SpanId -> b0689cf42cbcb76e] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 15:03:17 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> bbe2e4507d2fd3f3], [SpanId -> bbe2e4507d2fd3f3] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 071a6ad7b778f48c], [SpanId -> 071a6ad7b778f48c] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ORDER-SERVICE/172.16.226.142:order-service:7001 with status UP (replication=false)
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 0dd3931886709681], [SpanId -> 0dd3931886709681] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ORDER-SERVICE/172.16.226.142:order-service:7001 with status UP (replication=true)
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 95fa62a7d3affe7c], [SpanId -> 95fa62a7d3affe7c] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 7f0584abfaf860c9], [SpanId -> 7f0584abfaf860c9] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 15:03:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 15:04:43 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 3a8a890d1860f520], [SpanId -> 3a8a890d1860f520] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:04:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b5fa719ee7999c87], [SpanId -> b5fa719ee7999c87] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 15:04:45 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 5611793c1f95a568], [SpanId -> 5611793c1f95a568] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=false)
+[2024-05-12 15:04:46 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 18382067c7355d02], [SpanId -> 18382067c7355d02] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=true)
+[2024-05-12 15:04:49 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 12aa9a8fa1ad7628], [SpanId -> 12aa9a8fa1ad7628] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 (replication=false)
+[2024-05-12 15:04:50 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 373268d0352df583], [SpanId -> 373268d0352df583] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: PAYMENT-SERVICE/172.16.226.142:payment-service:8001
+[2024-05-12 15:04:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 373268d0352df583], [SpanId -> 373268d0352df583] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:04:50 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-15> com.netflix.eureka.cluster.ReplicationTask : The replication of task PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost failed with response code 404
+[2024-05-12 15:04:50 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-15> com.netflix.eureka.cluster.PeerEurekaNode : PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost: missing entry.
+[2024-05-12 15:04:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 15:05:01 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> f93c856ee2594f2b], [SpanId -> f93c856ee2594f2b] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:05:01 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> f93c856ee2594f2b], [SpanId -> f93c856ee2594f2b] 
+      <http-nio-8761-exec-6> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:05:01 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ce58440fcfbe623a], [SpanId -> ce58440fcfbe623a] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:05:01 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> de379a3e1e8cbf2b], [SpanId -> de379a3e1e8cbf2b] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:05:01 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 42343db15b68f42a], [SpanId -> 42343db15b68f42a] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 15:05:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 15:06:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 15ms
+[2024-05-12 15:07:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 11ms
+[2024-05-12 15:08:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 15:09:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 15:10:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 15:11:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 15:12:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 2ms
+[2024-05-12 15:13:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 2ms
+[2024-05-12 15:14:09 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c22162382d74d054], [SpanId -> c22162382d74d054] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:14:10 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f6a7b1903bb4f0ad], [SpanId -> f6a7b1903bb4f0ad] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 15:14:11 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 7b84c2f1e771323c], [SpanId -> 7b84c2f1e771323c] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=false)
+[2024-05-12 15:14:12 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 2b4e8da652ea773f], [SpanId -> 2b4e8da652ea773f] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=true)
+[2024-05-12 15:14:15 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> fb9c1c1b9fa77b71], [SpanId -> fb9c1c1b9fa77b71] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 (replication=false)
+[2024-05-12 15:14:16 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> bb820fec712f22d5], [SpanId -> bb820fec712f22d5] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: PAYMENT-SERVICE/172.16.226.142:payment-service:8001
+[2024-05-12 15:14:16 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> bb820fec712f22d5], [SpanId -> bb820fec712f22d5] 
+      <http-nio-8761-exec-5> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:14:16 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-18> com.netflix.eureka.cluster.ReplicationTask : The replication of task PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost failed with response code 404
+[2024-05-12 15:14:16 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-18> com.netflix.eureka.cluster.PeerEurekaNode : PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost: missing entry.
+[2024-05-12 15:14:31 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 6635858b108210ef], [SpanId -> 6635858b108210ef] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:14:31 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 6635858b108210ef], [SpanId -> 6635858b108210ef] 
+      <http-nio-8761-exec-10> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:14:31 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 020e3ba93a8c55bc], [SpanId -> 020e3ba93a8c55bc] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:14:32 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 59ede96a83074b5a], [SpanId -> 59ede96a83074b5a] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 15:14:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 6ms
+[2024-05-12 15:15:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 6ms
+[2024-05-12 15:16:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 15:17:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <ReplicaAwareInstanceRegistry - RenewalThresholdUpdater> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Current renewal threshold is : 11
+[2024-05-12 15:17:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 15:18:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 15:19:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 15:20:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 258a87897a1ef3a7], [SpanId -> 258a87897a1ef3a7] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:20:51 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 3883e75601edc529], [SpanId -> 3883e75601edc529] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 15:20:53 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 119e429a817c1c37], [SpanId -> 119e429a817c1c37] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=false)
+[2024-05-12 15:20:53 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> dcebcbaf05d1a188], [SpanId -> dcebcbaf05d1a188] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=true)
+[2024-05-12 15:20:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 15:20:57 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> e08c62188591804c], [SpanId -> e08c62188591804c] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 (replication=false)
+[2024-05-12 15:20:57 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 83eaa63bbc78efb3], [SpanId -> 83eaa63bbc78efb3] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: PAYMENT-SERVICE/172.16.226.142:payment-service:8001
+[2024-05-12 15:20:57 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 83eaa63bbc78efb3], [SpanId -> 83eaa63bbc78efb3] 
+      <http-nio-8761-exec-4> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:20:57 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-17> com.netflix.eureka.cluster.ReplicationTask : The replication of task PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost failed with response code 404
+[2024-05-12 15:20:57 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-17> com.netflix.eureka.cluster.PeerEurekaNode : PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost: missing entry.
+[2024-05-12 15:21:02 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> b4851aece9431421], [SpanId -> b4851aece9431421] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:21:02 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> b4851aece9431421], [SpanId -> b4851aece9431421] 
+      <http-nio-8761-exec-8> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:21:02 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> d6a8395340b63cc9], [SpanId -> d6a8395340b63cc9] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:21:02 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b3ebedea0318a715], [SpanId -> b3ebedea0318a715] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 15:21:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 12ms
+[2024-05-12 15:22:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 11ms
+[2024-05-12 15:23:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 5ms
+[2024-05-12 15:24:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 12ms
+[2024-05-12 15:25:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 15:26:00 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 62de0143f7ec816f], [SpanId -> 62de0143f7ec816f] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:26:01 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> bf289f3b5d963b01], [SpanId -> bf289f3b5d963b01] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 15:26:03 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 4d9a5e417a79a0e6], [SpanId -> 4d9a5e417a79a0e6] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=false)
+[2024-05-12 15:26:04 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 171c5f198cda9fb3], [SpanId -> 171c5f198cda9fb3] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=true)
+[2024-05-12 15:26:06 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 7be73c93c24e8f8a], [SpanId -> 7be73c93c24e8f8a] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 (replication=false)
+[2024-05-12 15:26:07 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 80f82623221b3d24], [SpanId -> 80f82623221b3d24] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: PAYMENT-SERVICE/172.16.226.142:payment-service:8001
+[2024-05-12 15:26:07 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 80f82623221b3d24], [SpanId -> 80f82623221b3d24] 
+      <http-nio-8761-exec-6> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:26:07 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-2> com.netflix.eureka.cluster.ReplicationTask : The replication of task PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost failed with response code 404
+[2024-05-12 15:26:07 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-2> com.netflix.eureka.cluster.PeerEurekaNode : PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost: missing entry.
+[2024-05-12 15:26:32 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> b46263ac66df7f33], [SpanId -> b46263ac66df7f33] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:26:32 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> b46263ac66df7f33], [SpanId -> b46263ac66df7f33] 
+      <http-nio-8761-exec-4> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 15:26:32 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 8b9a59d1e65f1fb3], [SpanId -> 8b9a59d1e65f1fb3] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 15:26:33 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> fba2d1c2d15dc393], [SpanId -> fba2d1c2d15dc393] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 15:26:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 15:27:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 1ms
+[2024-05-12 15:28:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 6ms
+[2024-05-12 15:29:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 15:30:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 11ms
+[2024-05-12 15:31:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 13ms
+[2024-05-12 15:32:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <ReplicaAwareInstanceRegistry - RenewalThresholdUpdater> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Current renewal threshold is : 11
+[2024-05-12 15:32:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 6ms
+[2024-05-12 15:33:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 15:34:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 15:35:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 15:36:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 15:37:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 1ms
+[2024-05-12 15:38:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 15:39:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 15:40:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 15:41:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 15:42:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 2ms
+[2024-05-12 15:43:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 15ms
+[2024-05-12 15:44:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 15:45:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 12ms
+[2024-05-12 15:46:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 15:47:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <ReplicaAwareInstanceRegistry - RenewalThresholdUpdater> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Current renewal threshold is : 11
+[2024-05-12 15:47:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 14ms
+[2024-05-12 15:48:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 15:49:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 15:50:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 6ms
+[2024-05-12 15:51:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 15:52:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 15:53:19 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 2987f22d74056a76], [SpanId -> 2987f22d74056a76] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 15:53:20 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 1f73151619c18ecd], [SpanId -> 1f73151619c18ecd] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 15:53:22 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c8417f01df912818], [SpanId -> c8417f01df912818] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=false)
+[2024-05-12 15:53:23 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 18079735994983d9], [SpanId -> 18079735994983d9] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=true)
+[2024-05-12 15:53:26 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> d5c98a1812e7e297], [SpanId -> d5c98a1812e7e297] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 (replication=false)
+[2024-05-12 15:53:27 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 8dabd2c812962ef0], [SpanId -> 8dabd2c812962ef0] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: CATALOG-SERVICE/172.16.226.142:catalog-service:6001
+[2024-05-12 15:53:27 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 8dabd2c812962ef0], [SpanId -> 8dabd2c812962ef0] 
+      <http-nio-8761-exec-4> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:53:27 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-16> com.netflix.eureka.cluster.ReplicationTask : The replication of task CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost failed with response code 404
+[2024-05-12 15:53:27 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-16> com.netflix.eureka.cluster.PeerEurekaNode : CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost: missing entry.
+[2024-05-12 15:53:37 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 99c96068a966ae33], [SpanId -> 99c96068a966ae33] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:53:37 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 99c96068a966ae33], [SpanId -> 99c96068a966ae33] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:53:37 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c650c8bee2344e99], [SpanId -> c650c8bee2344e99] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 15:53:38 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b786149522ce820c], [SpanId -> b786149522ce820c] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 15:53:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 13ms
+[2024-05-12 15:54:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 12ms
+[2024-05-12 15:54:58 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ac846323fcee0d03], [SpanId -> ac846323fcee0d03] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 15:54:58 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c70a50a00977a9f0], [SpanId -> c70a50a00977a9f0] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 15:54:59 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 7b34f204dc5a1275], [SpanId -> 7b34f204dc5a1275] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=false)
+[2024-05-12 15:55:00 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 8d7067c9636235a3], [SpanId -> 8d7067c9636235a3] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=true)
+[2024-05-12 15:55:03 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f454f93e02b7a813], [SpanId -> f454f93e02b7a813] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 (replication=false)
+[2024-05-12 15:55:04 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 177d6a6e98305f29], [SpanId -> 177d6a6e98305f29] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: CATALOG-SERVICE/172.16.226.142:catalog-service:6001
+[2024-05-12 15:55:04 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 177d6a6e98305f29], [SpanId -> 177d6a6e98305f29] 
+      <http-nio-8761-exec-3> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:55:04 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-11> com.netflix.eureka.cluster.ReplicationTask : The replication of task CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost failed with response code 404
+[2024-05-12 15:55:04 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-11> com.netflix.eureka.cluster.PeerEurekaNode : CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost: missing entry.
+[2024-05-12 15:55:07 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> f91ea36a614ec858], [SpanId -> f91ea36a614ec858] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:55:07 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> f91ea36a614ec858], [SpanId -> f91ea36a614ec858] 
+      <http-nio-8761-exec-10> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:55:07 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> a1d1292f5f0dfea5], [SpanId -> a1d1292f5f0dfea5] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 15:55:08 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c318a58d5e1591e1], [SpanId -> c318a58d5e1591e1] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 15:55:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 15:56:02 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 56e5100d497572c3], [SpanId -> 56e5100d497572c3] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 15:56:03 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ad35699d3273e283], [SpanId -> ad35699d3273e283] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 15:56:05 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 75b4d90232d057c8], [SpanId -> 75b4d90232d057c8] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=false)
+[2024-05-12 15:56:06 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 126f9237d6eb2d54], [SpanId -> 126f9237d6eb2d54] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=true)
+[2024-05-12 15:56:09 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 934a821db750b5ef], [SpanId -> 934a821db750b5ef] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 (replication=false)
+[2024-05-12 15:56:10 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> a9c23941bcf7c1dd], [SpanId -> a9c23941bcf7c1dd] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: CATALOG-SERVICE/172.16.226.142:catalog-service:6001
+[2024-05-12 15:56:10 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> a9c23941bcf7c1dd], [SpanId -> a9c23941bcf7c1dd] 
+      <http-nio-8761-exec-8> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:56:10 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-8> com.netflix.eureka.cluster.ReplicationTask : The replication of task CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost failed with response code 404
+[2024-05-12 15:56:10 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-8> com.netflix.eureka.cluster.PeerEurekaNode : CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost: missing entry.
+[2024-05-12 15:56:37 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> cc2eacb80d75b637], [SpanId -> cc2eacb80d75b637] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:56:37 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> cc2eacb80d75b637], [SpanId -> cc2eacb80d75b637] 
+      <http-nio-8761-exec-3> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:56:37 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 452751e4002998c9], [SpanId -> 452751e4002998c9] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 15:56:38 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 64a2962edecfd6b6], [SpanId -> 64a2962edecfd6b6] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 15:56:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 14ms
+[2024-05-12 15:57:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 15:58:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 15:59:19 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 5fa0682f3d909b99], [SpanId -> 5fa0682f3d909b99] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 15:59:19 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b67bfbdb2b23548e], [SpanId -> b67bfbdb2b23548e] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 15:59:22 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 46c0b3160a2fb990], [SpanId -> 46c0b3160a2fb990] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=false)
+[2024-05-12 15:59:22 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 181fd2d4fb675229], [SpanId -> 181fd2d4fb675229] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=true)
+[2024-05-12 15:59:26 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 1b47a90eb337187c], [SpanId -> 1b47a90eb337187c] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 (replication=false)
+[2024-05-12 15:59:26 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> e2103e25e1bd1e3f], [SpanId -> e2103e25e1bd1e3f] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: CATALOG-SERVICE/172.16.226.142:catalog-service:6001
+[2024-05-12 15:59:26 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> e2103e25e1bd1e3f], [SpanId -> e2103e25e1bd1e3f] 
+      <http-nio-8761-exec-9> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:59:26 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-9> com.netflix.eureka.cluster.ReplicationTask : The replication of task CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost failed with response code 404
+[2024-05-12 15:59:26 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-9> com.netflix.eureka.cluster.PeerEurekaNode : CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost: missing entry.
+[2024-05-12 15:59:38 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> d497e457144fe7c6], [SpanId -> d497e457144fe7c6] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:59:38 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> d497e457144fe7c6], [SpanId -> d497e457144fe7c6] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 15:59:38 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> d3b36b194c8fb750], [SpanId -> d3b36b194c8fb750] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 15:59:38 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> e001a13c72508969], [SpanId -> e001a13c72508969] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 15:59:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 13ms
+[2024-05-12 16:00:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 16:01:00 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b510c8c9d5474019], [SpanId -> b510c8c9d5474019] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 16:01:01 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 91b34cca2fa0ccc0], [SpanId -> 91b34cca2fa0ccc0] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 16:01:04 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> d7049a9aa4324cd2], [SpanId -> d7049a9aa4324cd2] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=false)
+[2024-05-12 16:01:05 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 015d69b0b8de7f15], [SpanId -> 015d69b0b8de7f15] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=true)
+[2024-05-12 16:01:08 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 67591d5fc54cd765], [SpanId -> 67591d5fc54cd765] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 (replication=false)
+[2024-05-12 16:01:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 85fec5fef139e5d8], [SpanId -> 85fec5fef139e5d8] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 16:01:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 85fec5fef139e5d8], [SpanId -> 85fec5fef139e5d8] 
+      <http-nio-8761-exec-6> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 16:01:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 85fec5fef139e5d8], [SpanId -> 85fec5fef139e5d8] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: CATALOG-SERVICE/172.16.226.142:catalog-service:6001
+[2024-05-12 16:01:08 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 85fec5fef139e5d8], [SpanId -> 85fec5fef139e5d8] 
+      <http-nio-8761-exec-6> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 16:01:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-7> com.netflix.eureka.cluster.ReplicationTask : The replication of task CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Heartbeat@localhost failed with response code 404
+[2024-05-12 16:01:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-7> com.netflix.eureka.cluster.PeerEurekaNode : CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Heartbeat@localhost: missing entry.
+[2024-05-12 16:01:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-7> com.netflix.eureka.cluster.PeerEurekaNode : CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Heartbeat@localhost: cannot find instance id 172.16.226.142:catalog-service:6001 and hence replicating the instance with status DOWN
+[2024-05-12 16:01:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-7> com.netflix.eureka.cluster.ReplicationTask : The replication of task CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost failed with response code 404
+[2024-05-12 16:01:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-7> com.netflix.eureka.cluster.PeerEurekaNode : CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost: missing entry.
+[2024-05-12 16:01:09 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 3b0407a733a6b7b0], [SpanId -> 3b0407a733a6b7b0] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=true)
+[2024-05-12 16:01:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 16:02:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <ReplicaAwareInstanceRegistry - RenewalThresholdUpdater> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Current renewal threshold is : 11
+[2024-05-12 16:02:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 16:03:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 6ms
+[2024-05-12 16:04:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 16:05:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 16:06:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 15ms
+[2024-05-12 16:07:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 2ms
+[2024-05-12 16:08:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 7ms
+[2024-05-12 16:08:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 85ba4225a108fb29], [SpanId -> 85ba4225a108fb29] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance BILLING-SERVICE/172.16.226.142:billing-service:5001 with status UP (replication=false)
+[2024-05-12 16:08:57 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 79dc33cd65c87c72], [SpanId -> 79dc33cd65c87c72] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance BILLING-SERVICE/172.16.226.142:billing-service:5001 with status UP (replication=true)
+[2024-05-12 16:08:58 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> eccf7215e66d7da2], [SpanId -> eccf7215e66d7da2] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance BILLING-SERVICE/172.16.226.142:billing-service:5001 with status DOWN (replication=false)
+[2024-05-12 16:08:59 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> d98bb4eac05b7a76], [SpanId -> d98bb4eac05b7a76] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance BILLING-SERVICE/172.16.226.142:billing-service:5001 with status DOWN (replication=true)
+[2024-05-12 16:09:03 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 1197701b0acf19ae], [SpanId -> 1197701b0acf19ae] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance BILLING-SERVICE/172.16.226.142:billing-service:5001 (replication=false)
+[2024-05-12 16:09:03 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> c1620f9de3880521], [SpanId -> c1620f9de3880521] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: BILLING-SERVICE/172.16.226.142:billing-service:5001
+[2024-05-12 16:09:04 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c1620f9de3880521], [SpanId -> c1620f9de3880521] 
+      <http-nio-8761-exec-5> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): BILLING-SERVICE - 172.16.226.142:billing-service:5001
+[2024-05-12 16:09:04 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-13> com.netflix.eureka.cluster.ReplicationTask : The replication of task BILLING-SERVICE/172.16.226.142:billing-service:5001:Cancel@localhost failed with response code 404
+[2024-05-12 16:09:04 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-13> com.netflix.eureka.cluster.PeerEurekaNode : BILLING-SERVICE/172.16.226.142:billing-service:5001:Cancel@localhost: missing entry.
+[2024-05-12 16:09:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> d39f12b2aa94a82e], [SpanId -> d39f12b2aa94a82e] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: BILLING-SERVICE - 172.16.226.142:billing-service:5001
+[2024-05-12 16:09:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> d39f12b2aa94a82e], [SpanId -> d39f12b2aa94a82e] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): BILLING-SERVICE - 172.16.226.142:billing-service:5001
+[2024-05-12 16:09:08 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> db4b57b09c8f33d0], [SpanId -> db4b57b09c8f33d0] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance BILLING-SERVICE/172.16.226.142:billing-service:5001 with status UP (replication=false)
+[2024-05-12 16:09:09 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 4c8b00ee502f5032], [SpanId -> 4c8b00ee502f5032] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance BILLING-SERVICE/172.16.226.142:billing-service:5001 with status UP (replication=true)
+[2024-05-12 16:09:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 1ms
+[2024-05-12 16:10:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 2ms
+[2024-05-12 16:11:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 14ms
+[2024-05-12 16:12:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 2ms
+[2024-05-12 16:13:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 12ms
+[2024-05-12 16:14:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 16:15:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 16:16:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 16:17:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <ReplicaAwareInstanceRegistry - RenewalThresholdUpdater> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Current renewal threshold is : 11
+[2024-05-12 16:17:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 14ms
+[2024-05-12 16:18:55 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 6ms
+[2024-05-12 16:19:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 11ms
+[2024-05-12 16:20:12 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 54cd4c270e6049de], [SpanId -> 54cd4c270e6049de] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:20:12 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> a63882bfe39b61dd], [SpanId -> a63882bfe39b61dd] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:20:14 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 225c84b2fde082a7], [SpanId -> 225c84b2fde082a7] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=false)
+[2024-05-12 16:20:14 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> fcc79126feb13f72], [SpanId -> fcc79126feb13f72] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=true)
+[2024-05-12 16:20:18 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 78fcea56a3a85035], [SpanId -> 78fcea56a3a85035] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 (replication=false)
+[2024-05-12 16:20:18 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 7d69274a69e80457], [SpanId -> 7d69274a69e80457] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: ACCOUNT-SERVICE/172.16.226.142:account-service:4001
+[2024-05-12 16:20:18 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 7d69274a69e80457], [SpanId -> 7d69274a69e80457] 
+      <http-nio-8761-exec-9> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:20:18 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-18> com.netflix.eureka.cluster.ReplicationTask : The replication of task ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost failed with response code 404
+[2024-05-12 16:20:18 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-18> com.netflix.eureka.cluster.PeerEurekaNode : ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost: missing entry.
+[2024-05-12 16:20:23 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 97588fa90559539c], [SpanId -> 97588fa90559539c] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:20:23 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 97588fa90559539c], [SpanId -> 97588fa90559539c] 
+      <http-nio-8761-exec-2> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:20:23 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> a41e8b1f5c6012ba], [SpanId -> a41e8b1f5c6012ba] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:20:23 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 3e0353150179af2b], [SpanId -> 3e0353150179af2b] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:20:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 16:21:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 10ms
+[2024-05-12 16:22:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 16:23:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 5ms
+[2024-05-12 16:24:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c9d69e0d3a20830a], [SpanId -> c9d69e0d3a20830a] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:24:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 792910dd60202ece], [SpanId -> 792910dd60202ece] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:24:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 16:24:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f1f83e9cd64b4298], [SpanId -> f1f83e9cd64b4298] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=false)
+[2024-05-12 16:24:57 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> d7eb7f58a7c210b8], [SpanId -> d7eb7f58a7c210b8] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=true)
+[2024-05-12 16:25:00 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 4cf6bea7126d41e2], [SpanId -> 4cf6bea7126d41e2] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 (replication=false)
+[2024-05-12 16:25:01 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> e7af0f02c3f78cf8], [SpanId -> e7af0f02c3f78cf8] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: ACCOUNT-SERVICE/172.16.226.142:account-service:4001
+[2024-05-12 16:25:01 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> e7af0f02c3f78cf8], [SpanId -> e7af0f02c3f78cf8] 
+      <http-nio-8761-exec-5> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:25:01 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-1> com.netflix.eureka.cluster.ReplicationTask : The replication of task ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost failed with response code 404
+[2024-05-12 16:25:01 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-1> com.netflix.eureka.cluster.PeerEurekaNode : ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost: missing entry.
+[2024-05-12 16:25:23 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> a6618a7c398159bc], [SpanId -> a6618a7c398159bc] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:25:23 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> a6618a7c398159bc], [SpanId -> a6618a7c398159bc] 
+      <http-nio-8761-exec-6> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:25:23 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 47d033ab656db5f5], [SpanId -> 47d033ab656db5f5] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:25:24 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> a5bc5bff4abb0fef], [SpanId -> a5bc5bff4abb0fef] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:25:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 5ms
+[2024-05-12 16:26:43 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> a6c8f0e0a562a918], [SpanId -> a6c8f0e0a562a918] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:26:44 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f18ff97ab9d5ced5], [SpanId -> f18ff97ab9d5ced5] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:26:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 13ms
+[2024-05-12 16:27:22 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 24f5f2f4b701ce66], [SpanId -> 24f5f2f4b701ce66] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:27:23 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> d1b12b61d790cc70], [SpanId -> d1b12b61d790cc70] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:27:24 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 577c7c0fc7f6cf46], [SpanId -> 577c7c0fc7f6cf46] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=false)
+[2024-05-12 16:27:24 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 1c9fb581a8a74f9f], [SpanId -> 1c9fb581a8a74f9f] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : There is an existing lease and the existing lease's dirty timestamp 1715527644173 is greater than the one that is being registered 1715527644171
+[2024-05-12 16:27:24 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 1c9fb581a8a74f9f], [SpanId -> 1c9fb581a8a74f9f] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Using the existing instanceInfo instead of the new instanceInfo as the registrant
+[2024-05-12 16:27:24 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 1c9fb581a8a74f9f], [SpanId -> 1c9fb581a8a74f9f] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=false)
+[2024-05-12 16:27:24 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> f9091abf69289df5], [SpanId -> f9091abf69289df5] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : There is an existing lease and the existing lease's dirty timestamp 1715527644173 is greater than the one that is being registered 1715527644171
+[2024-05-12 16:27:24 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> f9091abf69289df5], [SpanId -> f9091abf69289df5] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Using the existing instanceInfo instead of the new instanceInfo as the registrant
+[2024-05-12 16:27:24 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f9091abf69289df5], [SpanId -> f9091abf69289df5] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=true)
+[2024-05-12 16:27:24 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-19> com.netflix.eureka.cluster.ReplicationTask : The replication of task ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Heartbeat@localhost failed with response code 409
+[2024-05-12 16:27:24 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-19> com.netflix.eureka.cluster.PeerEurekaNode : Peer wants us to take the instance information from it, since the timestamp differs,Id : 172.16.226.142:account-service:4001 My Timestamp : 1715527642913, Peer's timestamp: 1715527644173
+[2024-05-12 16:27:24 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-19> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=true)
+[2024-05-12 16:27:28 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 9fa075fdefb00223], [SpanId -> 9fa075fdefb00223] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 (replication=false)
+[2024-05-12 16:27:28 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> e2b03e43e43d3fd8], [SpanId -> e2b03e43e43d3fd8] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: ACCOUNT-SERVICE/172.16.226.142:account-service:4001
+[2024-05-12 16:27:28 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> e2b03e43e43d3fd8], [SpanId -> e2b03e43e43d3fd8] 
+      <http-nio-8761-exec-5> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:27:28 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 093ead17dd7a7a4b], [SpanId -> 093ead17dd7a7a4b] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: ACCOUNT-SERVICE/172.16.226.142:account-service:4001
+[2024-05-12 16:27:28 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 093ead17dd7a7a4b], [SpanId -> 093ead17dd7a7a4b] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:27:28 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-4> com.netflix.eureka.cluster.ReplicationTask : The replication of task ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost failed with response code 404
+[2024-05-12 16:27:28 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-4> com.netflix.eureka.cluster.PeerEurekaNode : ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost: missing entry.
+[2024-05-12 16:27:53 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> c850ef84efc73048], [SpanId -> c850ef84efc73048] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:27:53 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> c850ef84efc73048], [SpanId -> c850ef84efc73048] 
+      <http-nio-8761-exec-9> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:27:53 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> fd0706eadcff3da1], [SpanId -> fd0706eadcff3da1] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:27:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 5d0617090420ce8c], [SpanId -> 5d0617090420ce8c] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:27:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 14ms
+[2024-05-12 16:28:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 9ms
+[2024-05-12 16:28:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> bd88dbc97691bac6], [SpanId -> bd88dbc97691bac6] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:28:57 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b1bf3338a25fa262], [SpanId -> b1bf3338a25fa262] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:29:32 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 4cddc4f79b7f9f82], [SpanId -> 4cddc4f79b7f9f82] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:29:32 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 49adf80eea83f4f8], [SpanId -> 49adf80eea83f4f8] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:29:33 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> d432bbd051266c6d], [SpanId -> d432bbd051266c6d] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=false)
+[2024-05-12 16:29:33 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 07b3767fff447808], [SpanId -> 07b3767fff447808] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=false)
+[2024-05-12 16:29:34 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f97e64cfa5330f41], [SpanId -> f97e64cfa5330f41] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=true)
+[2024-05-12 16:29:37 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 12bf70532f0239a5], [SpanId -> 12bf70532f0239a5] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 (replication=false)
+[2024-05-12 16:29:37 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> f481ef2cb596be2a], [SpanId -> f481ef2cb596be2a] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: ACCOUNT-SERVICE/172.16.226.142:account-service:4001
+[2024-05-12 16:29:37 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f481ef2cb596be2a], [SpanId -> f481ef2cb596be2a] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:29:38 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 5ddb413358e1dd3b], [SpanId -> 5ddb413358e1dd3b] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: ACCOUNT-SERVICE/172.16.226.142:account-service:4001
+[2024-05-12 16:29:38 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 5ddb413358e1dd3b], [SpanId -> 5ddb413358e1dd3b] 
+      <http-nio-8761-exec-4> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:29:38 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-14> com.netflix.eureka.cluster.ReplicationTask : The replication of task ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost failed with response code 404
+[2024-05-12 16:29:38 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-14> com.netflix.eureka.cluster.PeerEurekaNode : ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost: missing entry.
+[2024-05-12 16:29:53 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 8219a5e7724c3f9c], [SpanId -> 8219a5e7724c3f9c] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:29:53 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 8219a5e7724c3f9c], [SpanId -> 8219a5e7724c3f9c] 
+      <http-nio-8761-exec-4> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:29:53 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 7d70d4e10a9a48d0], [SpanId -> 7d70d4e10a9a48d0] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:29:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 0b2718ba8671fd11], [SpanId -> 0b2718ba8671fd11] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:29:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 16:30:50 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 563b46ee9395986c], [SpanId -> 563b46ee9395986c] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:30:51 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f85142ccadc651ff], [SpanId -> f85142ccadc651ff] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:30:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 16:31:25 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f6ac20d366eb2aec], [SpanId -> f6ac20d366eb2aec] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:31:26 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> e99f846d038c41c7], [SpanId -> e99f846d038c41c7] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:31:26 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 1e75fc04cb7ec1cd], [SpanId -> 1e75fc04cb7ec1cd] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=false)
+[2024-05-12 16:31:26 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 59d09998f022f643], [SpanId -> 59d09998f022f643] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=false)
+[2024-05-12 16:31:27 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> a68cd3a57d3baf6a], [SpanId -> a68cd3a57d3baf6a] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status DOWN (replication=true)
+[2024-05-12 16:31:30 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 5c89ae8c1c0487e2], [SpanId -> 5c89ae8c1c0487e2] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: ACCOUNT-SERVICE/172.16.226.142:account-service:4001
+[2024-05-12 16:31:30 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 5c89ae8c1c0487e2], [SpanId -> 5c89ae8c1c0487e2] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:31:30 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> dbaa200fbbd454f3], [SpanId -> dbaa200fbbd454f3] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 (replication=false)
+[2024-05-12 16:31:31 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ca56eeefd88baff1], [SpanId -> ca56eeefd88baff1] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: ACCOUNT-SERVICE/172.16.226.142:account-service:4001
+[2024-05-12 16:31:31 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ca56eeefd88baff1], [SpanId -> ca56eeefd88baff1] 
+      <http-nio-8761-exec-8> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:31:31 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-19> com.netflix.eureka.cluster.ReplicationTask : The replication of task ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost failed with response code 404
+[2024-05-12 16:31:31 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-19> com.netflix.eureka.cluster.PeerEurekaNode : ACCOUNT-SERVICE/172.16.226.142:account-service:4001:Cancel@localhost: missing entry.
+[2024-05-12 16:31:54 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 01be7e5361440bd7], [SpanId -> 01be7e5361440bd7] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:31:54 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 01be7e5361440bd7], [SpanId -> 01be7e5361440bd7] 
+      <http-nio-8761-exec-2> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): ACCOUNT-SERVICE - 172.16.226.142:account-service:4001
+[2024-05-12 16:31:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c17f3358a589c877], [SpanId -> c17f3358a589c877] 
+      <http-nio-8761-exec-4> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=false)
+[2024-05-12 16:31:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 281272c5aa43e7a1], [SpanId -> 281272c5aa43e7a1] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance ACCOUNT-SERVICE/172.16.226.142:account-service:4001 with status UP (replication=true)
+[2024-05-12 16:31:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 0ms
+[2024-05-12 16:32:54 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <ReplicaAwareInstanceRegistry - RenewalThresholdUpdater> com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl : Current renewal threshold is : 11
+[2024-05-12 16:32:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 12ms
+[2024-05-12 16:33:22 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ded6912f88eb19f7], [SpanId -> ded6912f88eb19f7] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 16:33:22 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> dab3c3e74d7fa39c], [SpanId -> dab3c3e74d7fa39c] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 16:33:24 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 3df98f4136640dbe], [SpanId -> 3df98f4136640dbe] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=false)
+[2024-05-12 16:33:24 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> fb846029eed299a9], [SpanId -> fb846029eed299a9] 
+      <http-nio-8761-exec-6> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status DOWN (replication=true)
+[2024-05-12 16:33:28 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b94ffeed9d6868be], [SpanId -> b94ffeed9d6868be] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 (replication=false)
+[2024-05-12 16:33:29 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> d125743adf1d8d7b], [SpanId -> d125743adf1d8d7b] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: CATALOG-SERVICE/172.16.226.142:catalog-service:6001
+[2024-05-12 16:33:29 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> d125743adf1d8d7b], [SpanId -> d125743adf1d8d7b] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 16:33:29 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-8> com.netflix.eureka.cluster.ReplicationTask : The replication of task CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost failed with response code 404
+[2024-05-12 16:33:29 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-8> com.netflix.eureka.cluster.PeerEurekaNode : CATALOG-SERVICE/172.16.226.142:catalog-service:6001:Cancel@localhost: missing entry.
+[2024-05-12 16:33:40 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> e33d600f2b5a43b4], [SpanId -> e33d600f2b5a43b4] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 16:33:40 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> e33d600f2b5a43b4], [SpanId -> e33d600f2b5a43b4] 
+      <http-nio-8761-exec-3> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): CATALOG-SERVICE - 172.16.226.142:catalog-service:6001
+[2024-05-12 16:33:40 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 7a9f3f4485de33de], [SpanId -> 7a9f3f4485de33de] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=false)
+[2024-05-12 16:33:40 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 6319464b23a7c72c], [SpanId -> 6319464b23a7c72c] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance CATALOG-SERVICE/172.16.226.142:catalog-service:6001 with status UP (replication=true)
+[2024-05-12 16:33:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 4ms
+[2024-05-12 16:34:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 5ms
+[2024-05-12 16:35:35 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 84f7aa5f6146c3c0], [SpanId -> 84f7aa5f6146c3c0] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 16:35:36 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 7990735d534d96a6], [SpanId -> 7990735d534d96a6] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 16:35:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 3ms
+[2024-05-12 16:36:04 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c2a705a53bd7879c], [SpanId -> c2a705a53bd7879c] 
+      <http-nio-8761-exec-8> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 16:36:04 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 1fadd21c3ada7152], [SpanId -> 1fadd21c3ada7152] 
+      <http-nio-8761-exec-7> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 16:36:04 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ffa5d38ffd5c1fd4], [SpanId -> ffa5d38ffd5c1fd4] 
+      <http-nio-8761-exec-9> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=false)
+[2024-05-12 16:36:04 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> f6f712c91ca009bb], [SpanId -> f6f712c91ca009bb] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=false)
+[2024-05-12 16:36:05 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> da58a7fb96f1e8d4], [SpanId -> da58a7fb96f1e8d4] 
+      <http-nio-8761-exec-3> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status DOWN (replication=true)
+[2024-05-12 16:36:08 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> b63cb34f353f327a], [SpanId -> b63cb34f353f327a] 
+      <http-nio-8761-exec-5> com.netflix.eureka.registry.AbstractInstanceRegistry : Cancelled instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 (replication=false)
+[2024-05-12 16:36:08 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 93b5b5bbf52a1ebf], [SpanId -> 93b5b5bbf52a1ebf] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: PAYMENT-SERVICE/172.16.226.142:payment-service:8001
+[2024-05-12 16:36:08 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 93b5b5bbf52a1ebf], [SpanId -> 93b5b5bbf52a1ebf] 
+      <http-nio-8761-exec-10> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 16:36:09 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> c7c94aaf5c255aca], [SpanId -> c7c94aaf5c255aca] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: cancel failed because Lease is not registered for: PAYMENT-SERVICE/172.16.226.142:payment-service:8001
+[2024-05-12 16:36:09 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> c7c94aaf5c255aca], [SpanId -> c7c94aaf5c255aca] 
+      <http-nio-8761-exec-1> com.netflix.eureka.resources.InstanceResource : Not Found (Cancel): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 16:36:09 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-16> com.netflix.eureka.cluster.ReplicationTask : The replication of task PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost failed with response code 404
+[2024-05-12 16:36:09 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-16> com.netflix.eureka.cluster.PeerEurekaNode : PAYMENT-SERVICE/172.16.226.142:payment-service:8001:Cancel@localhost: missing entry.
+[2024-05-12 16:36:17 WEST] ERROR [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <TaskBatchingWorker-target_localhost-19> com.netflix.eureka.cluster.ReplicationTaskProcessor : It seems to be a socket read timeout exception, it will retry later. if it continues to happen and some eureka node occupied all the cpu time, you should set property 'eureka.server.peer-node-read-timeout-ms' to a bigger value
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:117)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:80)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:193)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:276)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:294)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:679)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:481)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+[2024-05-12 16:36:37 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 7a91a4404c2b9d31], [SpanId -> 7a91a4404c2b9d31] 
+      <http-nio-8761-exec-10> com.netflix.eureka.registry.AbstractInstanceRegistry : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 16:36:37 WEST] WARN [Service Name -> eureka-discovery-service], [TraceId -> 7a91a4404c2b9d31], [SpanId -> 7a91a4404c2b9d31] 
+      <http-nio-8761-exec-10> com.netflix.eureka.resources.InstanceResource : Not Found (Renew): PAYMENT-SERVICE - 172.16.226.142:payment-service:8001
+[2024-05-12 16:36:37 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> 273fdd0842b95d81], [SpanId -> 273fdd0842b95d81] 
+      <http-nio-8761-exec-2> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=false)
+[2024-05-12 16:36:37 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> cdbb6d1c6191c9be], [SpanId -> cdbb6d1c6191c9be] 
+      <http-nio-8761-exec-1> com.netflix.eureka.registry.AbstractInstanceRegistry : Registered instance PAYMENT-SERVICE/172.16.226.142:payment-service:8001 with status UP (replication=true)
+[2024-05-12 16:36:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms
+[2024-05-12 16:37:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 2ms
+[2024-05-12 16:38:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 1ms
+[2024-05-12 16:39:56 WEST] INFO [Service Name -> eureka-discovery-service], [TraceId -> ], [SpanId -> ] 
+      <Eureka-EvictionTimer> com.netflix.eureka.registry.AbstractInstanceRegistry : Running the evict task with compensationTime 8ms

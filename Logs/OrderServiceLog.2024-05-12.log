@@ -1,0 +1,236 @@
+[2024-05-12 15:03:05 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <background-preinit> org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.5.Final
+[2024-05-12 15:03:05 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:03:06 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.orderservice.OrderServiceApplication : The following profiles are active: local
+[2024-05-12 15:03:09 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2024-05-12 15:03:09 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195ms. Found 6 JPA repository interfaces.
+[2024-05-12 15:03:10 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.context.scope.GenericScope : BeanFactory id=04a2520c-cb32-3b24-82f3-15d1563f5e0a
+[2024-05-12 15:03:10 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@16681017' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:03:11 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:03:11 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:03:11 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 7001 (http)
+[2024-05-12 15:03:11 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-7001"]
+[2024-05-12 15:03:11 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[2024-05-12 15:03:11 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2024-05-12 15:03:11 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2024-05-12 15:03:11 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4953 ms
+[2024-05-12 15:03:12 WEST] WARN [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 15:03:12 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 15:03:12 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3be80ece
+[2024-05-12 15:03:12 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2024-05-12 15:03:12 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2024-05-12 15:03:12 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fivebeans_db'
+[2024-05-12 15:03:13 WEST] WARN [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[2024-05-12 15:03:14 WEST] WARN [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration : Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@77ba583}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+[2024-05-12 15:03:15 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 5.2.4 by Boxfuse
+[2024-05-12 15:03:15 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.database.DatabaseFactory : Database: jdbc:h2:mem:fivebeans_db (H2 1.4)
+[2024-05-12 15:03:15 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbValidate : Successfully validated 2 migrations (execution time 00:00.046s)
+[2024-05-12 15:03:15 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory : Creating Schema History table: "PUBLIC"."order_service_flyway_history"
+[2024-05-12 15:03:15 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Current version of schema "PUBLIC": << Empty Schema >>
+[2024-05-12 15:03:15 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 1 - order service schema
+[2024-05-12 15:03:15 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 2 - order service initial data
+[2024-05-12 15:03:15 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Successfully applied 2 migrations to schema "PUBLIC" (execution time 00:00.102s)
+[2024-05-12 15:03:15 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2024-05-12 15:03:16 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-12 15:03:16 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final
+[2024-05-12 15:03:16 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2024-05-12 15:03:16 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2024-05-12 15:03:16 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+[2024-05-12 15:03:18 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-12 15:03:18 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 22 endpoint(s) beneath base path '/actuator'
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/v2/api-docs'], []
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/ui'], []
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/**'], []
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/webjars/**'], []
+[2024-05-12 15:03:22 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41538150, org.springframework.security.web.context.SecurityContextPersistenceFilter@4351d055, org.springframework.security.web.header.HeaderWriterFilter@71ce19ee, org.springframework.web.filter.CorsFilter@1360ef8d, org.springframework.security.web.authentication.logout.LogoutFilter@2adce412, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@76c85485, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e5f05f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@712594f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44d2bbc0, org.springframework.security.web.session.SessionManagementFilter@169d5567, org.springframework.security.web.access.ExceptionTranslationFilter@7e0941cc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ecd09d5]
+[2024-05-12 15:03:22 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16e5c19f, org.springframework.security.web.context.SecurityContextPersistenceFilter@147c4523, org.springframework.security.web.header.HeaderWriterFilter@14d6ede3, org.springframework.web.filter.CorsFilter@59263f7b, org.springframework.security.web.authentication.logout.LogoutFilter@5b4b6f3b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@15ea0ca3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@551725e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@760d6350, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ddcd3d, org.springframework.security.web.session.SessionManagementFilter@3333245e, org.springframework.security.web.access.ExceptionTranslationFilter@136a4800]
+[2024-05-12 15:03:22 WEST] WARN [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 15:03:22 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 15:03:23 WEST] WARN [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+[2024-05-12 15:03:24 WEST] WARN [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[2024-05-12 15:03:24 WEST] WARN [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.core.CoreAutoConfiguration : This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+[2024-05-12 15:03:25 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+[2024-05-12 15:03:25 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+[2024-05-12 15:03:25 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2024-05-12 15:03:25 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2024-05-12 15:03:25 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2024-05-12 15:03:25 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2024-05-12 15:03:25 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Disable delta property : false
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Application is null : false
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Application version is -1: true
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : The response status is 200
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1715522606402 with initial instances count: 0
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application ORDER-SERVICE with eureka with status UP
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1715522606414, current=UP, previous=STARTING]
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-7001"]
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDER-SERVICE/172.16.226.142:order-service:7001: registering service...
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 7001 (http) with context path ''
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 7001
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_ORDER-SERVICE/172.16.226.142:order-service:7001 - registration status: 204
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.orderservice.OrderServiceApplication : Started OrderServiceApplication in 24.331 seconds (JVM running for 27.035)
+[2024-05-12 15:03:28 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(3)-26.111.141.48> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-12 15:03:28 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(3)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+[2024-05-12 15:03:28 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(3)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Completed initialization in 21 ms
+[2024-05-12 15:03:56 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-CacheRefreshExecutor-0> com.netflix.discovery.DiscoveryClient : Disable delta property : false
+[2024-05-12 15:03:56 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-CacheRefreshExecutor-0> com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+[2024-05-12 15:03:56 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-CacheRefreshExecutor-0> com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+[2024-05-12 15:03:56 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-CacheRefreshExecutor-0> com.netflix.discovery.DiscoveryClient : Application is null : false
+[2024-05-12 15:03:56 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-CacheRefreshExecutor-0> com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+[2024-05-12 15:03:56 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-CacheRefreshExecutor-0> com.netflix.discovery.DiscoveryClient : Application version is -1: false
+[2024-05-12 15:03:56 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-CacheRefreshExecutor-0> com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+[2024-05-12 15:03:56 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-CacheRefreshExecutor-0> com.netflix.discovery.DiscoveryClient : The response status is 200
+[2024-05-12 15:08:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:13:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:18:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:23:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:28:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:33:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:38:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:43:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:48:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:53:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:58:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:03:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:08:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:13:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:18:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:23:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:28:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:33:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:38:26 WEST] INFO [Service Name -> order-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration

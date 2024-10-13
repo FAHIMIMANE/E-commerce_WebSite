@@ -1,0 +1,406 @@
+[2024-05-12 14:46:57 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <background-preinit> org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.5.Final
+[2024-05-12 14:46:57 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 14:46:58 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.paymentservice.PaymentServiceApplication : The following profiles are active: local
+[2024-05-12 14:46:59 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2024-05-12 14:47:00 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77ms. Found 1 JPA repository interfaces.
+[2024-05-12 14:47:00 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.context.scope.GenericScope : BeanFactory id=cf732d3f-964f-34d8-9d94-daab7cbeaf25
+[2024-05-12 14:47:00 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1373e3ee' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 14:47:00 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 14:47:00 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 14:47:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8001 (http)
+[2024-05-12 14:47:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8001"]
+[2024-05-12 14:47:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[2024-05-12 14:47:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2024-05-12 14:47:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2024-05-12 14:47:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3114 ms
+[2024-05-12 14:47:01 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 14:47:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 14:47:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@46ab4efc
+[2024-05-12 14:47:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2024-05-12 14:47:02 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2024-05-12 14:47:02 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fivebeans_db'
+[2024-05-12 14:47:02 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[2024-05-12 14:47:03 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration : Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@143413cd}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+[2024-05-12 14:47:03 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 5.2.4 by Boxfuse
+[2024-05-12 14:47:03 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.database.DatabaseFactory : Database: jdbc:h2:mem:fivebeans_db (H2 1.4)
+[2024-05-12 14:47:03 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbValidate : Successfully validated 1 migration (execution time 00:00.030s)
+[2024-05-12 14:47:03 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory : Creating Schema History table: "PUBLIC"."payment_service_flyway_history"
+[2024-05-12 14:47:03 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Current version of schema "PUBLIC": << Empty Schema >>
+[2024-05-12 14:47:03 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 1 - payment-service-schema
+[2024-05-12 14:47:03 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.047s)
+[2024-05-12 14:47:03 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2024-05-12 14:47:03 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-12 14:47:04 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final
+[2024-05-12 14:47:04 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2024-05-12 14:47:04 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2024-05-12 14:47:05 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-12 14:47:05 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 22 endpoint(s) beneath base path '/actuator'
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/v2/api-docs'], []
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/ui'], []
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/**'], []
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/webjars/**'], []
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56d6e2e1, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fcbc336, org.springframework.security.web.header.HeaderWriterFilter@70ad0854, org.springframework.web.filter.CorsFilter@4e9695cf, org.springframework.security.web.authentication.logout.LogoutFilter@7d563c13, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@700202fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e7391e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45017263, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43e86c0c, org.springframework.security.web.session.SessionManagementFilter@3fcc7f5c, org.springframework.security.web.access.ExceptionTranslationFilter@e3275d3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a5a4f8]
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4270705f, org.springframework.security.web.context.SecurityContextPersistenceFilter@332fa6ce, org.springframework.security.web.header.HeaderWriterFilter@2b3d03b2, org.springframework.web.filter.CorsFilter@6f69b0ba, org.springframework.security.web.authentication.logout.LogoutFilter@74a3160d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5cf1bbd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cc9a948, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f2a1ff0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63537871, org.springframework.security.web.session.SessionManagementFilter@542beecb, org.springframework.security.web.access.ExceptionTranslationFilter@54b96813]
+[2024-05-12 14:47:06 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 14:47:06 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 14:47:08 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+[2024-05-12 14:47:09 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[2024-05-12 14:47:09 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+[2024-05-12 14:47:09 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+[2024-05-12 14:47:09 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2024-05-12 14:47:09 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2024-05-12 14:47:09 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2024-05-12 14:47:09 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2024-05-12 14:47:09 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Disable delta property : false
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Application is null : false
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Application version is -1: true
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : The response status is 200
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1715521630451 with initial instances count: 2
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application PAYMENT-SERVICE with eureka with status UP
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1715521630464, current=UP, previous=STARTING]
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8001"]
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001: registering service...
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8001 (http) with context path ''
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8001
+[2024-05-12 14:47:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - registration status: 204
+[2024-05-12 14:47:11 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+[2024-05-12 14:47:11 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+[2024-05-12 14:47:11 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.paymentservice.PaymentServiceApplication : Started PaymentServiceApplication in 15.552 seconds (JVM running for 16.849)
+[2024-05-12 14:47:12 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(3)-26.111.141.48> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-12 14:47:12 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(3)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+[2024-05-12 14:47:12 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(3)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Completed initialization in 16 ms
+[2024-05-12 14:52:10 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 14:56:02 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+[2024-05-12 14:56:02 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <SpringContextShutdownHook> com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1715522162743, current=DOWN, previous=UP]
+[2024-05-12 14:56:02 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001: registering service...
+[2024-05-12 14:56:02 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - registration status: 204
+[2024-05-12 15:03:14 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <background-preinit> org.hibernate.validator.internal.util.Version : HV000001: Hibernate Validator 6.1.5.Final
+[2024-05-12 15:03:14 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:03:16 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.paymentservice.PaymentServiceApplication : The following profiles are active: local
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87ms. Found 1 JPA repository interfaces.
+[2024-05-12 15:03:19 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.context.scope.GenericScope : BeanFactory id=cf732d3f-964f-34d8-9d94-daab7cbeaf25
+[2024-05-12 15:03:20 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@497ed877' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:03:20 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:03:20 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2024-05-12 15:03:20 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8001 (http)
+[2024-05-12 15:03:20 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8001"]
+[2024-05-12 15:03:20 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[2024-05-12 15:03:20 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4278 ms
+[2024-05-12 15:03:21 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@472c9f88
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+[2024-05-12 15:03:21 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fivebeans_db'
+[2024-05-12 15:03:21 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.EndpointId : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[2024-05-12 15:03:22 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration : Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@503556cb}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.license.VersionPrinter : Flyway Community Edition 5.2.4 by Boxfuse
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.database.DatabaseFactory : Database: jdbc:h2:mem:fivebeans_db (H2 1.4)
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbValidate : Successfully validated 1 migration (execution time 00:00.030s)
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory : Creating Schema History table: "PUBLIC"."payment_service_flyway_history"
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Current version of schema "PUBLIC": << Empty Schema >>
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Migrating schema "PUBLIC" to version 1 - payment-service-schema
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.flywaydb.core.internal.command.DbMigrate : Successfully applied 1 migration to schema "PUBLIC" (execution time 00:00.064s)
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-12 15:03:23 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final
+[2024-05-12 15:03:24 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2024-05-12 15:03:24 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2024-05-12 15:03:25 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-12 15:03:25 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <task-1> org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-12 15:03:26 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 22 endpoint(s) beneath base path '/actuator'
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/v2/api-docs'], []
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/ui'], []
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/configuration/**'], []
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: Ant [pattern='/webjars/**'], []
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17e8caf2, org.springframework.security.web.context.SecurityContextPersistenceFilter@1fa44f66, org.springframework.security.web.header.HeaderWriterFilter@19540247, org.springframework.web.filter.CorsFilter@104cf647, org.springframework.security.web.authentication.logout.LogoutFilter@24520a51, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@470a446f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31dd0e2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a6204e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7488c183, org.springframework.security.web.session.SessionManagementFilter@7fcbc336, org.springframework.security.web.access.ExceptionTranslationFilter@70ad0854, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c6c58ce]
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f2afa8b, org.springframework.security.web.context.SecurityContextPersistenceFilter@31b67d61, org.springframework.security.web.header.HeaderWriterFilter@29d81c22, org.springframework.web.filter.CorsFilter@6b2efcae, org.springframework.security.web.authentication.logout.LogoutFilter@e296794, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48697181, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a3383dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@591ba330, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8aa1562, org.springframework.security.web.session.SessionManagementFilter@75e92bb7, org.springframework.security.web.access.ExceptionTranslationFilter@430f0c63]
+[2024-05-12 15:03:27 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
+[2024-05-12 15:03:27 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[2024-05-12 15:03:29 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+[2024-05-12 15:03:29 WEST] WARN [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with default default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+[2024-05-12 15:03:30 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.InstanceInfoFactory : Setting initial instance status as: STARTING
+[2024-05-12 15:03:30 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
+[2024-05-12 15:03:30 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
+[2024-05-12 15:03:30 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
+[2024-05-12 15:03:30 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
+[2024-05-12 15:03:30 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
+[2024-05-12 15:03:30 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Disable delta property : false
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Application is null : false
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Application version is -1: true
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : The response status is 200
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1715522611212 with initial instances count: 5
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry : Registering application PAYMENT-SERVICE with eureka with status UP
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1715522611224, current=UP, previous=STARTING]
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8001"]
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001: registering service...
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8001 (http) with context path ''
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration : Updating port to 8001
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - registration status: 204
+[2024-05-12 15:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+[2024-05-12 15:03:32 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> org.springframework.data.repository.config.DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+[2024-05-12 15:03:32 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <main> com.fivebeans.paymentservice.PaymentServiceApplication : Started PaymentServiceApplication in 19.578 seconds (JVM running for 21.384)
+[2024-05-12 15:03:33 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(3)-26.111.141.48> org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-12 15:03:33 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(3)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+[2024-05-12 15:03:33 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <RMI TCP Connection(3)-26.111.141.48> org.springframework.web.servlet.DispatcherServlet : Completed initialization in 16 ms
+[2024-05-12 15:05:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - Re-registering apps/PAYMENT-SERVICE
+[2024-05-12 15:05:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001: registering service...
+[2024-05-12 15:05:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001: registering service...
+[2024-05-12 15:05:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - registration status: 204
+[2024-05-12 15:05:01 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-InstanceInfoReplicator-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - registration status: 204
+[2024-05-12 15:08:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:13:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:14:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - Re-registering apps/PAYMENT-SERVICE
+[2024-05-12 15:14:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001: registering service...
+[2024-05-12 15:14:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - registration status: 204
+[2024-05-12 15:18:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:21:02 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - Re-registering apps/PAYMENT-SERVICE
+[2024-05-12 15:21:02 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001: registering service...
+[2024-05-12 15:21:02 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - registration status: 204
+[2024-05-12 15:23:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:26:32 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - Re-registering apps/PAYMENT-SERVICE
+[2024-05-12 15:26:32 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001: registering service...
+[2024-05-12 15:26:32 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - registration status: 204
+[2024-05-12 15:28:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:33:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:38:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:43:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:48:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:53:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 15:58:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:03:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:08:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:13:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:18:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:23:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:28:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:33:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+[2024-05-12 16:36:37 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - Re-registering apps/PAYMENT-SERVICE
+[2024-05-12 16:36:37 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001: registering service...
+[2024-05-12 16:36:37 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <DiscoveryClient-HeartbeatExecutor-0> com.netflix.discovery.DiscoveryClient : DiscoveryClient_PAYMENT-SERVICE/172.16.226.142:payment-service:8001 - registration status: 204
+[2024-05-12 16:38:31 WEST] INFO [Service Name -> payment-service], [TraceId -> ], [SpanId -> ] 
+      <AsyncResolver-bootstrap-executor-0> com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration

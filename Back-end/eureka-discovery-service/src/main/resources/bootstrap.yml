@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-discovery-service
+
+management:
+  metrics:
+    export:
+      influx:
+        enabled: false
